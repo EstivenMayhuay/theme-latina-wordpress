@@ -1,0 +1,33 @@
+/*!
+    Theme Name: WordPress + Tailwind
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --purple-dark: #513CCA;
+    --white-grayish: #F5F5F5;
+    --black-primary: #222222;
+}
+
+.bg-black-primary {
+    background-color: var(--black-primary);
+}
+
+.bg-purple-dark {
+    background-color: var(--purple-dark);
+}
+
+.bg-white-grayish {
+    background-color: var(--white-grayish);
+}
+
+.text-purple-dark {
+    color: var(--purple-dark);
+}
+
+.text-black-primary {
+    color: var(--black-primary);
+}
