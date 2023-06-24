@@ -25,6 +25,7 @@
             </div>
             
         </div>
+        
         <div class="footer__links col-span-6">
             <nav role="navigation" class="grid lg:grid-cols-2 lg:gap-4">
                 <ul role="list" class="links text-white">

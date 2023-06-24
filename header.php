@@ -7,7 +7,7 @@
     <!-- add styles -->
     <?php wp_head(); ?> 
 </head>
-<body class="bg-white h-screen">
+<body class="bg-black h-screen">
     <!-- Header Mobile -->
     <header class="headerMobile w-full lg:hidden bg-purple-dark p-4 flex items-center justify-center relative">
         <p class="headerMobile__btn text-white absolute left-4">
@@ -24,7 +24,7 @@
     </header>
 
     <!-- Header Desktop -->
-    <header class="headerDesktop hidden lg:flex bg-white relative">
+    <header class="headerDesktop hidden lg:flex bg-transparent relative">
         <div class="headerDesktop relative flex items-center justify-between gap-8 px-4 py-5 bg-white-grayish lg:w-10/12 mx-auto">
             <p class="headerDesktop__logo">
                 <img src="<?php echo get_template_directory_uri() .'/assets/images/latina_pe.png'; ?>" alt="Latina" width="80" role="img">

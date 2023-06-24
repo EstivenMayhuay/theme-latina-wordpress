@@ -31,3 +31,9 @@
 .text-black-primary {
     color: var(--black-primary);
 }
+
+/* .hero {
+    background: url('./assets/images/bg-qatar-hero.jpeg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+} */
