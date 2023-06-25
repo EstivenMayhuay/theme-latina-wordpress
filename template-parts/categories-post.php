@@ -1,6 +1,6 @@
 <article class="futballCard bg-black-primary rounded-lg overflow-hidden hover:scale-105">
     <div class="futballCard__img">
-        <a href="<?php the_permalink(); ?>" title="<?php the_title() ?>" >
+        <a href="<?php the_permalink(); ?>" title="<?php the_title() ?>">
             <?php the_post_thumbnail('my-post-thumbnail', ['class' => 'w-full']); ?>
         </a>
     </div>

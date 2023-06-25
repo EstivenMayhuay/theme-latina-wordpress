@@ -10,12 +10,12 @@
 <body class="bg-black h-screen">
     <!-- Header Mobile -->
     <header class="headerMobile w-full lg:hidden bg-purple-dark p-4 flex items-center justify-center relative">
-        <p class="headerMobile__btn text-white absolute left-4">
+        <button class="headerMobile__btn text-white absolute left-4" role="button">
             <img src="<?php echo get_template_directory_uri() .'/assets/images/icon-menu.svg'; ?>" alt="Latina" width="36">
-        </p>
-        <p class="headerMobile__logo">
+        </button>
+        <a href="/" class="headerMobile__logo" role="link">
             <img src="<?php echo get_template_directory_uri() .'/assets/images/logo-movil.png'; ?>" alt="Latina" width="140" role="img">
-        </p>
+        </a>
         <p class="headerMobile__latinatv absolute right-4">
             <a href="https://www.latina.pe/tvenvivo" title="Latina TV En Vivo">
                 <img src="<?php echo get_template_directory_uri() .'/assets/images/icon_tv_fondo.png'; ?>" alt="Latina TV en Vivo" width="48" role="img">
@@ -26,19 +26,19 @@
     <!-- Header Desktop -->
     <header class="headerDesktop hidden lg:flex bg-transparent relative">
         <div class="headerDesktop relative flex items-center justify-between gap-8 px-4 py-5 bg-white-grayish lg:w-10/12 mx-auto">
-            <p class="headerDesktop__logo">
+            <a href="/" class="headerDesktop__logo" role="link">
                 <img src="<?php echo get_template_directory_uri() .'/assets/images/latina_pe.png'; ?>" alt="Latina" width="80" role="img">
-            </p>
+            </a>
             <nav class="menuDesktop flex gap-4" role="navigation">
                 <button class="menuDesktop__btn flex items-center" role="button">
                     <img src="<?php echo get_template_directory_uri() .'/assets/images/icon-menu-black.svg'; ?>" alt="Latina" width="36" role="img">
                     <span class="font-bold text-xl">Menu</span>
                 </button>
                 <ul role="menu" class="menuDesktop__list flex items-center gap-4">
-                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-xl"><a href="#">NOTICIAS</a></li>
-                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-xl"><a href="#">PROGRAMAS</a></li>
-                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-xl"><a href="#">NOVELAS</a></li>
-                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-xl"><a href="#">DEPORTES</a></li>
+                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-md"><a href="#">NOTICIAS</a></li>
+                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-md"><a href="#">PROGRAMAS</a></li>
+                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-md"><a href="#">NOVELAS</a></li>
+                    <li role="menuitem" class="menuDesktop__item text-purple-dark font-bold text-md"><a href="#">DEPORTES</a></li>
                 </ul>
                 <button class="menuDesktop__search" role="button">                
                     <img src="<?php echo get_template_directory_uri() .'/assets/images/icon-search.svg'; ?>" alt="Latina" width="22" role="img">
