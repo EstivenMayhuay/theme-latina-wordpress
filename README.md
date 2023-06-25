@@ -64,10 +64,18 @@ npx tailwindcss -i ./tailwind.css -o ./style.css
 
 With this steps you can use the template.
 
-## **Views**
+## **Views Site**
 
 ### Home
 ![view category](./assets/images/view_category.png)
 
 ### Post
 ![view entrada](./assets/images/view_entrada.png)
+
+## **Views Wordpress**
+
+![view entrada](./assets/images/view_wordpress_preview_template.png)
+
+<br>
+
+![view entrada](./assets/images/view_wordpress_entradas.png)
