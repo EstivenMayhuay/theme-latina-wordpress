@@ -1,5 +1,11 @@
-/*!
-    Theme Name: WordPress + Tailwind
+/*
+Theme Name: Latina Theme
+Theme URI: URL del sitio web relacionado con el tema
+Author: Estiven Mayhuay
+Author URI: https://estiven-portafolio.vercel.app/
+Description: Este tema es un desarrollo personalizado para Latina usando tailwind css
+Version: 0.0.1
+Tags: tailwindcss, CSS3, HTML5
 */
 
 @tailwind base;

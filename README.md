@@ -70,4 +70,4 @@ With this steps you can use the template.
 ![view category](./assets/images/view_category.png)
 
 ### Post
-![view entrada](./assets/images/view_category.png)
+![view entrada](./assets/images/view_entrada.png)
