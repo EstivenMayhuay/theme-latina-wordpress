@@ -1,6 +1,6 @@
 ## **Overview**
 
-This theme wordpress is created by results a challenge, this project use **Tailwind CSS, HTML, CSS & PHP**. The S.O use was **Fedora 38**.
+This theme wordpress is created by results a challenge, this project use **Tailwind CSS, HTML, CSS & PHP**. The S.O use was **Fedora 38**. We create two categores in wordrpess by month  **november & december** and assign a category each post card. 
 
 ## **Setup**
 
