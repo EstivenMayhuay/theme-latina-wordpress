@@ -741,6 +741,10 @@ video {
   --black-primary: #222222;
 }
 
+body {
+  background-color: #000;
+}
+
 .bg-black-primary {
   background-color: var(--black-primary);
 }
